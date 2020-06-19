@@ -5,10 +5,10 @@
 span{
     &.first-name, &.last-name{
         color: $link-color;
-        font-family: $main-font;
+        font-family: $main-logo-font;
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.19;
+        line-height: 1.18;
     }
 }
 
