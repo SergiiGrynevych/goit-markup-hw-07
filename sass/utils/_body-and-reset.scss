@@ -5,9 +5,11 @@ body{
     letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 400;
+
+
 }
 
-img{​  
+img{
     display: block;
     max-width: 100%;
     height: auto;
@@ -22,7 +24,19 @@ img{​
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
+
+.logo, .join{
+    padding: 0;
+    margin: 0;
+}
+
+.team{
+    p{
+        padding: 0;
+        margin: 0;
+    }
+}
 
 .team {
     .title{
@@ -31,10 +45,15 @@ img{​
     }
 }
 
-.team p, .logo, .join, .contacts > p{
-    padding: 0;
-    margin: 0;
+
+
+.contacts{
+    & > p{
+        padding: 0;
+        margin: 0;
+    }
 }
+
 
 .container {
     margin-left: auto;
@@ -48,6 +67,7 @@ img{​
 a{
     text-decoration: none;
 }
+
 li {
     list-style-type: none; /* Убираем маркеры */
 }
