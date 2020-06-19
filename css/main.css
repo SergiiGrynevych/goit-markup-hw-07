@@ -115,7 +115,7 @@ span.last-name {
 }
 
 .nav-link .title:hover, .nav-link .title:focus {
-  color: var(--link-color);
+  color: #2196F3;
 }
 
 .nav-link .current {
@@ -144,6 +144,11 @@ span.last-name {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-contacts .item + .item {

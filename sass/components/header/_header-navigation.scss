@@ -30,7 +30,7 @@
 
 .title:hover, .title:focus{
     .nav-link &{
-        color: var(--link-color);
+        color: $link-color;
     }
 }
 
