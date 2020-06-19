@@ -209,4 +209,50 @@ span.last-name {
 .nav-contacts .item-link:focus > .phone {
   fill: #2196F3;
 }
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/Hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+}
+
+.hero .title {
+  margin: 0;
+  margin-bottom: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 646px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .link {
+  display: inline-block;
+  margin-bottom: 0px;
+  padding: 10px 32px;
+  cursor: pointer;
+  background-color: var(--link-color);
+  border-radius: 4px;
+  color: var(--third-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
