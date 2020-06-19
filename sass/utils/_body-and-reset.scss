@@ -1,0 +1,53 @@
+body{
+    color: $primary-text-color;
+    background-color: $third-text-color;
+    font-family: $main-font;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+img{​  
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.team {
+    .title{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.team p, .logo, .join, .contacts > p{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid tomato; */
+}
+  
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
