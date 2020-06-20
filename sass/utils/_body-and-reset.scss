@@ -24,34 +24,32 @@ img{
     overflow: hidden;
 }
 
-.logo, .join{
+.logo{
     padding: 0;
     margin: 0;
 }
 
+.join{
+    @extend .logo;
+}
+
 .team{
     p{
-        padding: 0;
-        margin: 0;
+        @extend .logo;
     }
 }
 
 .team {
     .title{
-        padding: 0;
-        margin: 0;
+        @extend .logo;
     }
 }
-
-
 
 .contacts{
     & > p{
-        padding: 0;
-        margin: 0;
+        @extend .logo;
     }
 }
-
 
 .container {
     margin-left: auto;
