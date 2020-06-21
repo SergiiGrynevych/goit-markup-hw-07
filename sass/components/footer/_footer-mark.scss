@@ -3,7 +3,6 @@ footer{
     padding-bottom: 21px;
 }
 
-
 .container-footer{
     margin-bottom: 0px;
 }
@@ -38,54 +37,34 @@ footer{
     }
 }
 
+.footer{
+    &-logo{
+        display: block;
+        margin-bottom: 10px;
+    }
 
+    &-flex{
+        display: flex;
+        align-items: baseline;
 
-
-
-.footer-flex{
-    display: flex;
-    align-items: baseline;
+        &-block{
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+    }      
 }
-
-.footer-flex-block{
-    margin-top: 48px;
-}
-
-.network{
-    margin-left: 69px;
-}
-
-
-.footer-logo{
-    display: block;
-    margin-bottom: 10px;
-}
-
-// .first-name-logo,
-// .last-name-logo{
-//     color: $link-color;
-//     font-family: $main-logo-font;
-//     font-weight: 700;
-//     font-size: 22px;
-//     line-height: 1.18;
-// }
 
 .footer-links{
     margin-top: 21px;
     fill: $third-text-color;
-}
 
-.footer-links .link{
-    background-color: $line-developers-color;
-}
+    & .link{
+        background-color: $line-developers-color;
 
-.footer-links .link-icon{
-    fill: $third-text-color;
-}
-
-
-.last-name-logo{
-    color: $third-text-color;
+        &-icon{
+            fill: $third-text-color;
+        }
+    }
 }
 
 .join{
@@ -102,35 +81,35 @@ footer{
 .subscribe{
     margin-top: 57px;
     margin-left: 94px;
-}
 
-.subscribe-urge{
-    color: $third-text-color;
-    font-size: 14px;
-    line-height: 1.14;
-    font-weight: 700;
-    text-transform: uppercase;
+    &-urge{
+        color: $third-text-color;
+        font-size: 14px;
+        line-height: 1.14;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
 
 .subscribe-form{
     display: flex;
     padding: 0;
     margin-top: 20px;
-}
 
-.subscribe-form__field-input{
-    padding-left: 12px;
-    width: 358px;
-    height: 50px;
-
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-    line-height: 1.87;
-
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    &__field-input{
+        padding-left: 12px;
+        width: 358px;
+        height: 50px;
+    
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        line-height: 1.87;
+    
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
 }
 
 .developers{
@@ -160,18 +139,14 @@ footer{
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    &-svg{
+        margin-left: 10px;
+        width: 24px;
+        height: 24px;
+    }
 }
 
-.submit-svg{
-    margin-left: 10px;
-    width: 24px;
-    height: 24px;
+.network{
+    margin-left: 69px;
 }
-
-
-// .header-line{
-//     display: inline-block;
-//     border: 1px solid $header-line-color;
-//     margin-top: 33px;
-// }
-
