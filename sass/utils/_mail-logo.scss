@@ -10,9 +10,12 @@ span{
         font-size: 26px;
         line-height: 1.18;
     }
-}
 
-span.last-name{
-    color: $primary-text-color;
-}
+    &.last-name{
+        color: $primary-text-color;
 
+        &.footer{
+            color: $third-text-color;
+        }
+    }
+}
