@@ -34,9 +34,9 @@
         padding: 10px 32px;
     
         cursor: pointer;
-        background-color: var(--link-color);
+        background-color: $link-color;
         border-radius: 4px;
-        color: var(--third-text-color);
+        color: $third-text-color;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
